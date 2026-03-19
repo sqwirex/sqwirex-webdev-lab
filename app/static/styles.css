@@ -1,0 +1,59 @@
+body {
+    font-size: 1.1rem;
+    background-color: #f2f2f2;
+    color: #212529;
+}
+
+main {
+    min-height: calc(100vh - 140px);
+}
+
+.avatar {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+}
+
+.post-page {
+    max-width: 760px;
+}
+
+.post-title {
+    font-size: 2.5rem;
+}
+
+.post-meta {
+    color: #555;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-text {
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.comment-item {
+    margin-bottom: 1.5rem;
+}
+
+.comment-author {
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.comment-text {
+    line-height: 1.5;
+}
+
+.comment-children {
+    margin-top: 1rem;
+    margin-left: 2.5rem;
+}
+
+.site-footer {
+    background-color: #212529;
+    color: #fff;
+}
